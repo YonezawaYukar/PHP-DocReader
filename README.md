@@ -4,20 +4,20 @@
 * Email: 49806786#qq.com / yukarpoi@gmail.com
 * How to call me: 米泽由香里/香香/圆栗子
 
-#Start
+# Start
 
-###composer
+### composer
 
 * composer install yukar/php-docreader:1.0.0
 
-###use it
+### use it
     
     require 'vendor/autoload.php';
     \DocReader\DOC::class('Testclass')->doc()->print;
     
 * more examles,please look at demo.php
 
-###end
+### end
 
 * 饭后十分钟的作品
 * 可以适用于标准环境
