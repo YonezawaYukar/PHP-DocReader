@@ -1,0 +1,13 @@
+{
+    "name": "yukar/php-doc-reader",
+    "description": "A php doc reader. Can help to read document more easily.",
+    "type": "library",
+    "license": "Mozilla Public License Version 2.0",
+    "authors": [
+        {
+            "name": "Yonezawa Yukar",
+            "email": "49806786@qq.com"
+        }
+    ],
+    "require": {}
+}
