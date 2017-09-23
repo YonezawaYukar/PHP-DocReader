@@ -6,7 +6,7 @@
 #Start
 
 ###composer
-* composer install yukar/php-docreader
+* composer install yukar/php-docreader:1.0.0
 
 ###use it
     
