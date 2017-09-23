@@ -5,7 +5,7 @@
  * Date: 2017/9/24
  * Time: 上午12:23
  */
-require_once './src/DOC.php';
+require_once './DocReader/DOC.php';
 
 /**
  * Class Testclass

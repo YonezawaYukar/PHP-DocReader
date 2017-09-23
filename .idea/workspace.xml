@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e10c728-8da9-448d-9472-2bd140438341" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Convert.php" afterPath="$PROJECT_DIR$/DocReader/Convert.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DOC.php" afterPath="$PROJECT_DIR$/DocReader/DOC.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Read.php" afterPath="$PROJECT_DIR$/DocReader/Read.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.php" afterPath="$PROJECT_DIR$/demo.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +18,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Read.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Read.php">
+        <entry file="file://$PROJECT_DIR$/DocReader/Read.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="885">
               <caret line="59" column="97" lean-forward="false" selection-start-line="59" selection-start-column="97" selection-end-line="59" selection-end-column="97" />
@@ -26,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DOC.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DOC.php">
+      <file leaf-file-name="DOC.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocReader/DOC.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -47,7 +50,7 @@
         </entry>
       </file>
       <file leaf-file-name="Convert.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Convert.php">
+        <entry file="file://$PROJECT_DIR$/DocReader/Convert.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
@@ -56,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -126,7 +129,7 @@
             <path>
               <item name="PHP-DocReader" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-DocReader" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DocReader" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -151,8 +154,8 @@
     </option>
   </component>
   <component name="RunManager" selected="PHP Script.demo.php">
-    <configuration name="Convert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/Convert.php" />
-    <configuration name="DOC.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/DOC.php" />
+    <configuration name="Convert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DocReader/Convert.php" />
+    <configuration name="DOC.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DocReader/DOC.php" />
     <configuration name="demo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/demo.php" />
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.Convert.php" />
@@ -177,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506179842989</updated>
-      <workItem from="1506179844930" duration="5721000" />
+      <workItem from="1506179844930" duration="5785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5721000" />
+    <option name="totallyTimeSpent" value="5785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="41" width="1400" height="914" extended-state="0" />
@@ -226,15 +229,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DOC.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Read.php">
+    <entry file="file://$PROJECT_DIR$/DocReader/Read.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="59" column="97" lean-forward="false" selection-start-line="59" selection-start-column="97" selection-end-line="59" selection-end-column="97" />
@@ -244,7 +239,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Convert.php">
+    <entry file="file://$PROJECT_DIR$/DocReader/Convert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
@@ -268,6 +263,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocReader/DOC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
